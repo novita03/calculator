@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header h1{
+  padding: 10px;
+  text-align: center;
+  color:white;
+
+}
+header{
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 4em;
+  height: 4em;
+  margin: 0.3em;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn1 {
+  width: 4em;
+  height: 9em;
+  margin: 0.3em;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#show {
+  width: 16.7em;
+  height: 4em;
+  margin: 0.3em;
+  padding: 0.1em 0.8em;
+}
+
+body{
+  background-color: rgba(34, 30, 52, 0.9);
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-top: 5em;
+}
